@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .certificate {
+      background: rgb(195, 197, 241);
+      border: 10px solid #000000;
+      padding: 20px;
+      position: relative;
+      text-align: center;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .certificate-header {
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .logo {
+        width: 120px;
+        align-items: center;
+      }
+
+    .certificate-title {
+      font-size: 2em;
+      font-weight: bold;
+      color: #921f1f;
+      margin: 20px 0;
+    }
+
+    .candidate-details {
+      text-align: center;
+      margin: 20px 0;
+      line-height: 1.8em;
+    }
+
+    .footer {
+      margin-top: 20px;
+      text-align: left;
+      font-size: 0.9em;
+    }
+
+    .footer {
+      margin-top: 10px;
+    }
+
+    
+    .stamp-logo {
+        display: flex; 
+        justify-content: flex-end; 
+    }
+    
+    .s-logo {
+        width: 80px;
+    }
+    
+    
+    
+    @media (max-width: 600px) {
+      .certificate-title {
+        font-size: 1.8em;
+      }
+
+      .candidate-details {
+        font-size: 0.9em;
+      }
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+      .certificate-title {
+        font-size: 2em;
+      }
+
+      .candidate-details {
+        font-size: 1em;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="certificate">
+  <div class="certificate-header">
+    <img src="computer.png" alt="Disha Logo" class="logo">
+  </div>
+  <div class="certificate-title">CERTIFICATE<br /> 
+    Certificate Course in Java</div>
+  <div class="candidate-details">
+    <p><b>PRATIK KAILAS SHEDGE</b></p>
+    <p>has successfully passed the <b>Certificate Course in Java</b></p>
+    <p>by securing <b>65%</b> from DISHA COMPUTER INSTITUTE.</p>
+    <p><strong>Address:</strong> 46/384, Sant Tukaram Nagar, Near Fire Bridge, Opp. Hawkers Zone, Pimpri</p>
+  </div>
+  
+  <div class="footer">
+    <p><b>Verified Certificate</b></p>
+    <p><b>Issued Date:</b> Dec 21, 2024</p>
+    <p><b>Verified By:</b> Santosh Sarwan</p>
+  </div>
+
+  <div class="stamp-logo">
+    <img src="passed.png" class="s-logo">
+  </div>
+</div>
+
+</body>
+</html>
